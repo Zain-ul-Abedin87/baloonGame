@@ -1,0 +1,67 @@
+
+#appContainer{
+
+    margin: auto;
+    width: 1280px;
+}
+
+#scoreContainer{
+    
+    position: absolute;
+    top: 43px;
+    right: 0;
+    width: 100px;
+    text-align: center;
+}
+
+#scoreContainer img{
+    width:100%;
+}
+
+#scoreContainer span{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+
+#game_screen{
+    overflow:hidden;
+    position: relative;
+}
+
+.baloon{
+    width:60px;
+    position: absolute;
+}
+
+.hide{
+    display: none;
+}
+
+#game_over_screen{
+    position: relative;
+}
+
+#go_screen{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    top:30%;
+}
+
+#btnContainer{
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#btnContainer img:hover{
+    opacity:0.8;
+}
+
+#btnContainer img{
+    width: 200px;
+    cursor: pointer;
+}

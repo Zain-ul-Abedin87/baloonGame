@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gamica Baloons</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/application.js"></script>
+
+
+</head>
+
+<body>
+<!-- 
+    <h1>This is game 1</h1>
+    <h1>This is game 2</h1> -->
+
+    <div id="appContainer">
+
+        <div id="splash_screen">
+            <img src="images/background.jpg" alt="">
+            <div id="btnContainer">
+                <img id="startBTN" src="images/start-btn.png" alt="">
+            </div>
+        </div>
+
+        <div id="game_screen" class="hide">
+            <img src="images/game-screen.jpg" alt="">
+
+            <div id="scoreContainer">
+                <img src="images/score.png" alt="">
+                <span id="scoreBox"></span>
+
+                <img src="images/chances.png" alt="">
+                <span id="chancesBox"></span>
+
+            </div>
+
+        </div>
+
+        <div id="game_over_screen" class="hide">
+            <img src="images/game-screen.jpg" alt="">
+            <div id="go_screen">
+                <img src="images/game-over.png" alt="">
+            </div>
+
+
+            <div id="scoreContainer">
+
+                <img src="images/score.png" alt="">
+                <span id="scoreBox1"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+
+        app.init();
+
+    </script>
+
+</body>
+
+</html>
